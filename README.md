@@ -1,2 +1,20 @@
 # ichi_assembler
-assembler for ichi arch
+ichi 指令集的汇编器
+
+
+该汇编器在完整实现 ichi 指令的同时，支持以下伪指令
+
+ORG
+
+跳到某个内存地址，如
+ORG 1000H
+则下面的指令从 1000H 开始
+
+
+DB
+
+单字节
+
+以小数点. 开头的指令会被忽略
+
+
